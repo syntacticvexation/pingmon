@@ -1,4 +1,4 @@
-require 'ping'
+require 'net/ping'
 require 'erb'
 require 'yaml'
 require 'rubygems'
