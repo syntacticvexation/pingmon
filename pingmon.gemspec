@@ -22,6 +22,7 @@ purposes and became my first gem.
   s.add_development_dependency "bundler", ">= 1.0.0"
   s.add_development_dependency "rspec", "~> 2.0.1"
 
+  s.add_dependency "net-ping"
   s.add_dependency "pony", "~> 1.0.1"
   s.add_dependency "eventmachine"
   s.add_dependency "rufus-scheduler", "~> 2.0.6"
