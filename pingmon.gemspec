@@ -23,7 +23,7 @@ purposes and became my first gem.
   s.add_development_dependency "rspec", "~> 2.0.1"
 
   s.add_dependency "pony", "~> 1.0.1"
-  s.add_dependency "eventmachine", "~> 0.12.10"
+  s.add_dependency "eventmachine"
   s.add_dependency "rufus-scheduler", "~> 2.0.6"
 
   s.files               = `git ls-files`.split("\n")
