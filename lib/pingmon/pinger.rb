@@ -1,7 +1,7 @@
 module PingMon
   class Pinger
     def self.ping(host)
-      Net::Ping::TCP.new(host).ping?
+      Net::Ping::ICMP.new(host).ping?
     end
 
     def initialize(configuration=Config.new)

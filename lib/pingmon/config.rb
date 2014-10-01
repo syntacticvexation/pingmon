@@ -20,7 +20,7 @@ module PingMon
       text = ERB.new(File.read(config_file)).result
       hash = YAML.load(text)
 
-      base_config = (hash.symbolize_keys[:config]).stringify_keys
+      base_config = hash["config"]
       base_config.keys.each do |key|
         instance_variable_set("@#{key}", base_config[key])
         self.class.class_eval do
